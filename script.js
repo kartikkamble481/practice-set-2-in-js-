@@ -14,13 +14,13 @@
 // console.log ("sum = ", sum );
 // console.log ("loof is end " );
 
-// let rate = 0;
-// for (let i = 1 ; i >= 100 ; i++) {
-//     sum = sum + i;
-// }
+let rate = 0;
+for (let i = 1 ; i >= 100 ; i++) {
+    sum = sum + i;
+}
 
-// console.log("sum = ", sum);
-// console.log("loop end");
+console.log("sum = ", sum);
+console.log("loop end");
 
 
 
@@ -34,7 +34,7 @@ console.log("sum is ", sum);
 
 
 
-
+// for loop 
 
 let count = 0;
 for (let i = 1; i <= 10 ; i++) {
@@ -42,9 +42,13 @@ for (let i = 1; i <= 10 ; i++) {
 }
 console.log("count = ", count);
 
+// for loop 
+
 for (let i = 0; i <= 10; i++){
     console.log("OVIIIXII",i);
 }
+
+// if else conditional statements in js .
 
 let age = prompt("enter your age ");
 
