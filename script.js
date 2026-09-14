@@ -19,7 +19,7 @@ for (let i = 1 ; i >= 100 ; i++) {
     sum = sum + i;
 }
 
-console.log("sum = ", sum);
+console.log("sum = ");
 console.log("loop end");
 
 
@@ -59,14 +59,34 @@ else {
     console.log ("you can not vote");
 }
 
+ 
+
+// if else if statements in js 
+
+let grade ;
+let score = 98;
 
 
 
+if (score >= 100 && score <= 80){
+    console.log("A");
+}
+
+else if (score >= 60 && score <= 79){
+   console.log("B");
+}
 
 
+else if (score >= 35 && score <= 59){
+    console.log("C");
+}
 
+else if (score >= 0 && score <= 34){
+    console.log("fail");
+}
 
-
+console.log(grade);
+console.log("score =", score);
 
 
 
