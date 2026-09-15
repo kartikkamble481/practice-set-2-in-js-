@@ -90,10 +90,53 @@ console.log("score =", score);
 
 
 
+// while condition in loop 
+
+console.log ("while condition in js ");
 
 
 
+let i = 1;
+
+while (i <= 5) {
+    console.log("kartik" , i);
+    i++;
+}
 
 
 
+let k = 1;
 
+while (k <= 10){
+    console.log("wiffy" , k);
+    k++;
+}
+
+let x = 1;
+while(x <= 25){
+    console.log("viaduu" , x);
+    x++;
+}
+
+
+//do while loop 
+
+console.log("do while lopp in js ");
+
+
+//  let y = 1;
+
+//  do{
+//     console.log("kartyaa_08" , y);
+//  }while(y <= 5);
+
+
+ console.log("if condition in js ");
+
+ let number = 12;
+
+ if (number >= 35){
+    console.log("passs");
+ }else{
+    console.log("faild");   
+ }
