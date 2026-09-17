@@ -208,4 +208,18 @@ for (let key in student){
     console.log("key = ", key ,"val =",[key]);
     size++;
 }
- 
+ //practice set 1 
+
+ console.log("practice set 1 ");
+
+ for (let number = 0 ; number <= 100 ; number++){
+    console.log();
+
+if (number%2 === 0){
+console.log( "number =", number);
+}
+else{
+
+}
+
+ }
