@@ -140,3 +140,72 @@ console.log("do while lopp in js ");
  }else{
     console.log("faild");   
  }
+
+ // while loop in js 
+ console.log("while loop in js ");
+
+let a = 1;
+
+while (a <= 5){
+    console.log("kamble", a);
+    a++;
+}
+
+
+let wish = 1;
+
+while (wish <= 10){
+    console.log("love you", wish);
+    wish++;
+}
+
+// do while 
+
+console.log("do while loop in js ");
+
+
+let b = 1;
+do {
+    console.log("kartik",b)
+    b++;
+}
+while(b <= 5);
+
+
+let code = 1;
+
+do {
+    console.log("OVIIIXII", code);
+    code++;
+    }
+ while(code <= 10);
+
+// for of loop in js 
+
+console.log("for-of loop in js ");
+
+
+let str = "kartik kamble";
+
+for(let val of str){
+    console.log("value = ", val);
+}
+
+
+// for-in loop in js 
+
+console.log("for-in loop in js ");
+ 
+let size = 0;
+const student = {
+    name : "kartik",
+    age : 21,
+    DOB : 12-11-2005,
+    id : "@kartyaa_08"
+};
+
+for (let key in student){
+    console.log("key = ", key ,"val =",[key]);
+    size++;
+}
+ 
