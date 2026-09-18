@@ -242,3 +242,42 @@ else{
    }
 
    console.log("congratulations you enterd the right number "); 
+
+
+
+   // string in js 
+
+   // create string in js 
+
+
+   let STR = "kartik kamble";
+   console.log( "length = ", STR.length, STR[0]);
+
+   
+   // template literals in js 
+
+
+   const id = {
+    name : "kartik kamble",
+    age : 21,
+    DOB : "12/11/2005",
+    email : "kartikkamble481@gmail.com"
+   };
+
+   let output = `name is ${id.name} age is ${id.age} DOB is ${id.DOB} email is ${id.email}`;
+ 
+console.log(output);
+
+
+
+const lang = {
+    frist : "html",
+    sec : "css",
+    third : "js"
+
+};
+
+let Output = `i learn frist language is ${lang.frist} i sec learn language is ${lang.sec} & i third learn language is ${lang.third}`;
+console.log(Output);
+
+console.log("kartik\nkamble");

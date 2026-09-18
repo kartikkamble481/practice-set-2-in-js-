@@ -1,0 +1,18 @@
+body {
+    color : red;
+
+}
+
+.box{
+    background-color:blue;
+    color:aqua; 
+    height:200px;
+    width:200px;
+    border: 2px solid black ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
