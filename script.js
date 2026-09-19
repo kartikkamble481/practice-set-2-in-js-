@@ -50,14 +50,14 @@ for (let i = 0; i <= 10; i++){
 
 // if else conditional statements in js .
 
-let age = prompt("enter your age ");
+// let age = prompt("enter your age ");
 
-if (age >= 18){
-    console.log ("you can vote ");
-}
-else {
-    console.log ("you can not vote");
-}
+// if (age >= 18){
+//     console.log ("you can vote ");
+// }
+// else {
+//     console.log ("you can not vote");
+// }
 
  
 
@@ -232,16 +232,16 @@ else{
 
  
 
- let gameNum = 25;
+//  let gameNum = 25;
 
-   let userNum = prompt("guess the correct gmae number  :");
+//    let userNum = prompt("guess the correct gmae number  :");
 
-   while (userNum != gameNum){
-   userNum = prompt("you enterd wrong unmber. guess again : ");
+//    while (userNum != gameNum){
+//    userNum = prompt("you enterd wrong unmber. guess again : ");
 
-   }
+//    }
 
-   console.log("congratulations you enterd the right number "); 
+//    console.log("congratulations you enterd the right number "); 
 
 
 
@@ -281,3 +281,15 @@ let Output = `i learn frist language is ${lang.frist} i sec learn language is ${
 console.log(Output);
 
 console.log("kartik\nkamble");
+
+
+
+// practice set 1 in string in js 
+
+
+let fullName = prompt ("enter your full name : ");
+
+let username = "@" + fullName + fullName.length;
+
+console.log(username);
+
