@@ -286,10 +286,19 @@ console.log("kartik\nkamble");
 
 // practice set 1 in string in js 
 
+console.log("practiceset 1 in string in js ");
+
 
 let fullName = prompt ("enter your full name : ");
 
 let username = "@" + fullName + fullName.length;
 
 console.log(username);
+
+
+// praccticeset 2 in string in js 
+
+
+
+
 
